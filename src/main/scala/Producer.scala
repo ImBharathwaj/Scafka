@@ -11,7 +11,7 @@ object Producer {
   def SendRecords(): Unit = {
     log.info("This is working!");
 
-    var properties: Properties = new Properties()
+    val properties: Properties = new Properties()
 
     //  Create producer properties
     properties.setProperty("bootstrap.servers","localhost:9092")

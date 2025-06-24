@@ -1,7 +1,6 @@
 package org.tamaai.com
-import org.tamaai.com.Producer
 
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 @main
-def main(): Unit =
-  Producer.SendRecords()
+def main(): Unit = {
+  ProducerKeys.SendRecordsWithKey()
+}
