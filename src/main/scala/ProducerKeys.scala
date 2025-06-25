@@ -7,6 +7,9 @@ import org.slf4j.{Logger, LoggerFactory}
 import java.util.Properties
 
 object ProducerKeys {
+  def main(args: Array[String]): Unit = {
+    SendRecordsWithKey()
+  }
   private val log: Logger = LoggerFactory.getLogger(getClass.getName)
   def SendRecordsWithKey(): Unit = {
     log.info("This is not working!");
